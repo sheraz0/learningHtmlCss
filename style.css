@@ -1,0 +1,37 @@
+.allabout{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.about1{
+    border: 1px solid #c0c0c0;
+}
+
+.about2{
+    border: 1px solid #c0c0c0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about22{
+    background-color: silver;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+p{
+    padding: 10px;
+}
+
+h4{
+    text-align: left;
+}
+
+.about4{
+    text-align: left;
+}
