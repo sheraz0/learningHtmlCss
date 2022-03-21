@@ -1,0 +1,43 @@
+body{
+    background-color: #a9d7e9;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.allformelement{
+    background-color: #f3f3f3;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+}
+.pelement{
+    font-size: x-large;
+}
+
+.labels{
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.fields{
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.button{
+    padding: 10px 5px 10px 5px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}

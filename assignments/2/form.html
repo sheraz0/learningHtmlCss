@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+        <meta charset="utf-8">
+        <title>good vibes form</title>
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    </head>
+    <body>
+        <section>
+            <h1>Good Vibes Form</h1>
+            <div class="allformelement">
+                <p class="pelement">Tell us something positive that happened to you today.</p>
+                <form action="/action_page.php">
+                    <div class="form-row">
+                        <div class="labels">
+                            <label for="Name">Name</label>
+                        </div>
+                        <div class="fields">
+                            <input type="text" name="Name" id="Name" placeholder="Enter your name">
+                        </div>
+                     </div>
+
+                     <div class="form-row">
+                         <div class="labels">
+                             <label for="Email">Email</label>
+                         </div>
+                         <div class="fields">
+                             <input type="text" name="Email" id="Email" placeholder="Enter your email address">
+                         </div>
+                         </div>
+
+                         <div class="form-row">
+                             <div class="labels">
+                                 <label for="number">On a scale of 1-10, how good was it?</label>
+                                </div>
+                                <div class="fields">
+                                    <input type="number" name="number" id="number"min="1" max="10" placeholder="Enter a number between 1-10">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="labels">
+                                    <label for="dropdown">Where did it happen?</label>
+                                </div>
+                                <div class="fields">
+                                    <select name="dropdown" id="dropdown">
+                                        <option value="home">AT home</option>
+                                        <option value="commute">On my commute</option>
+                                        <option value="work">At work</option>
+                                        <option value="outside">On the street</option>
+                                        <option value="other">other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div form-row>
+                                <div class="labels">
+                                    <label for="checkbox">At what time of day did it happen?</label>
+                                </div>
+                                <div class="fields">
+                                    <ul id="checkbox" style="list-style-type: none;">
+                                        <li>
+                                            <label>
+                                                Morning
+                                                <input type="checkbox" name="checkbox" id="checkbox">
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                Afternoon
+                                                <input type="checkbox" name="checkbox" id="checkbox">
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                Evening
+                                                <input type="checkbox" name="checkbox" id="checkbox">
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div form-row>
+                                <div class="labels">
+                                    <label for="checkbox">
+                                        What emotions did you experience?
+                                        <br>
+                                        (select all that apply)
+                                    </label>
+                                    <div class="fields">
+                                        <ul id="checkbox" style="list-style-type: none;">
+                                            <li>
+                                                <label>
+                                                   Excited
+                                                   <input type="checkbox" name="checkbox" id="checkbox"> 
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    Humbled
+                                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    Elated
+                                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    Loved
+                                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    Enthusiastic
+                                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                            <div class="labels">
+                                <label for="event">Please describe your positive experience.</label>
+                            </div>
+                            <div class="fields">
+                                <textarea id="event" cols="1" rows="1" placeholder="Enter your experience" style="width: 200px; height: 40px;"></textarea>
+                            </div>
+                            </div>
+                            <button class="button" type="submit">Submit</button>
+                        </form>
+                    </div>
+        </section>
+
+    </body>
+</html>
