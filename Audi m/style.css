@@ -1,0 +1,84 @@
+.bg-img{
+    background-image: url('Audi background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+}
+
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.headerset h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.7s ease;
+}
+.headerset h1:hover{
+    font-size: 74px;
+    color: black;
+    font-weight: bolder;
+}
+.headerset h6:hover{
+    font-size: 35px;
+    color: black;
+}
+@media only screen and (max-width: 800px;){
+    .headerset h1{
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        transition: 0.7s ease;
+    }
+}
+
+.post{
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    height: 350px;
+    width: 380px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.content{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid silver;
+    height: 200px;
+    margin: 20px;
+    background-color: silver;
+}
+.c-title{
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.navbar-nav li a{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px;
+    position: sticky;
+}
+.navbar-nav li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+body{
+    background-attachment: scroll;
+}
